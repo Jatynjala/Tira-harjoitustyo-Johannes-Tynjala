@@ -7,3 +7,5 @@ Itse ohjelma ei ole edistynyt, koska tämä on ensimmäinen viikkoraportti. Minu
 Tämän ollessa ensimmäinen viikkoraportti, en ole toistaiseksi oppinut mitään uutta. Samasta syystä mitään ei ole jäänyt epäselväksi.
 ### Mitä teen seuraavaksi?
 Seuraavaksi on suunnitelmana toteuttaa merkkien korvaaminen toisilla.
+### Käytetty aika
+Noin varttia vailla tunti
