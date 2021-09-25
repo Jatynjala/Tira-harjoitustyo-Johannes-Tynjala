@@ -1,5 +1,8 @@
 # Tira-harjoitustyo-Johannes-Tynjala
 ### Dokumentaatio
-* [Määrittelydokumentti](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/M%C3%A4%C3%A4rittelydokumentti.md)
+* [Määrittelydokumentti](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/M%C3%A4%C3%A4rittelydokumentti.md)
+* [Testausdokumentti](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/Testausdokumentti.md)
 ### Viikkoraportit
-1. [Viikkoraportti 1](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/Viikkoraportti%201.md)
+1. [Viikkoraportti 1](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/viikkoraportit/Viikkoraportti%201.md)
+2. [Viikkoraportti 2](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/viikkoraportit/Viikkoraportti%202.md)
+3. [Viikkoraportti 3](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/viikkoraportit/Viikkoraportti%203.md)
