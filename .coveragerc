@@ -1,0 +1,3 @@
+[run]
+source = koodi
+omit = koodi/__pycache__/**, koodi/testit/**

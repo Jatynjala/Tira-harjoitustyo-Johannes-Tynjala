@@ -1,0 +1,4 @@
+/koodi/__pycache__
+/koodi/testit/__pycache__
+/.coverage
+/.pytest_cache
