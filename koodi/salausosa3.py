@@ -1,7 +1,7 @@
 from salausosa1 import muuta_listaksi, aseta_kirjaimet_ja_numerot
 from salausosa2 import RSA_avainten_muodostus
 
-def muuta_luvuksi(matriisi:list, merkkijono:str):
+def muuta_luvuksi(matriisi: list, merkkijono: str):
     """Muuttaa annetun merkkijonon kokonaisluvuksi annetun matriisin avulla"""
     valilista=muuta_listaksi(merkkijono)
     for n in range(0, len(valilista)):
@@ -13,7 +13,7 @@ def muuta_luvuksi(matriisi:list, merkkijono:str):
     tulosluku=yhdistaja.join(valilista)
     return tulosluku
 
-def RSA_salaus(luku:str, avain:tuple):
+def RSA_salaus(luku: str, avain: tuple):
     """Laskee annetusta luvusta annetun avaimen avulle uuden luvun, joka on salattu viesti"""
     n=avain[0]
     e=avain[1]

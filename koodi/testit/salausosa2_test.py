@@ -1,5 +1,5 @@
 import unittest
-from salausosa2 import RSA_avainten_muodostus, SYT
+from salausosa2 import RSA_avainten_muodostus, SYT, onko_alkuluku
 
 class Testsalausosa2(unittest.TestCase):
     def test_RSA_avain_toimii_oikein1(self):
@@ -24,3 +24,12 @@ class Testsalausosa2(unittest.TestCase):
     def test_SYT_toimii_oikein_jaolliset_luvut(self):
         testitulos=SYT(25, 400)
         self.assertEqual(testitulos, 25)
+    def test_alkuluku_oikein1(self):
+        tulos=onko_alkuluku(7)
+        self.assertTrue(tulos)
+    def test_alkuluku_oikein2(self):
+        tulos=onko_alkuluku(399)
+        self.assertFalse(tulos)
+    def test_alkuluku_oikein3(self):
+        tulos=onko_alkuluku(176)
+        self.assertFalse(tulos)
