@@ -21,7 +21,6 @@ def muuta_listaksi(merkkijono: str):
 def korvaa_merkit(rivi: str, matriisi: list):
     """Korvaa annetun merkkijonon merkit annetun matriisin perusteella"""
     rivin_merkit=muuta_listaksi(rivi)
-    print(rivin_merkit)
     for indeksi1 in range(0, len(rivin_merkit)):
         for indeksi2 in range(0, len(matriisi[0])):
             if matriisi[0][indeksi2]==rivin_merkit[indeksi1]:

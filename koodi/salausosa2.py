@@ -17,7 +17,7 @@ def onko_alkuluku(x: int):
 
 def RSA_avainten_muodostus():
     """Muodostaa tuplen (n, e, d), joista n ja e muodostavat julkisen avaimen ja d yksityisen"""
-    lukulista=[x for x in range(101, 500) if onko_alkuluku(x)]
+    lukulista=[x for x in range(101, 1000) if onko_alkuluku(x)]
     p=lukulista.pop(randint(0, len(lukulista)))
     q=choice(lukulista)
     n=p*q

@@ -8,3 +8,4 @@
 3. [Viikkoraportti 3](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/viikkoraportit/Viikkoraportti%203.md)
 4. [Viikkoraportti 4](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/viikkoraportit/Viikkoraportti%204.md)
 5. [Viikkoraportti 5](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/viikkoraportit/Viikkoraportti%205.md)
+6. [Viikkoraportti 6](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/viikkoraportit/Viikkoraportti%206.md)

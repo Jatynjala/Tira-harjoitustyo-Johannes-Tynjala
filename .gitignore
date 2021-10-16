@@ -2,3 +2,4 @@
 /koodi/testit/__pycache__
 /.coverage
 /.pytest_cache
+/koodi/oma_RSA_avain.txt
