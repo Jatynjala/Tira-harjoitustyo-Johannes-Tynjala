@@ -17,15 +17,15 @@ def onko_alkuluku(x: int):
 
 def RSA_avainten_muodostus():
     """Muodostaa tuplen (n, e, d), joista n ja e muodostavat julkisen avaimen ja d yksityisen"""
-    lukulista=[x for x in range(101, 10000000, 2) if onko_alkuluku(x)]
+    lukulista=[x for x in range(101, 1000, 2) if onko_alkuluku(x)]
     p=lukulista.pop(randint(0, len(lukulista)))
     q=choice(lukulista)
     n=p*q
     luku=(p-1)*(q-1)
-    e=randint(2, (3*(n/4)))
+    e=randint(2, int((3*(n/4))))
     while SYT(e, luku)!=1:
         e+=1
-    d=randint(101, (3*(n/4)))
+    d=randint(101, int((3*(n/4))))
     while ((d*e)-1)%luku!=0:
         d+=1
     return (n, e, d)

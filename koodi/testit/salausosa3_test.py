@@ -10,7 +10,7 @@ class Testsalausosa3(unittest.TestCase):
         testiluku=muuta_luvuksi(matriisi, testisana)
         toimiiko=True
         for x in range(0, len(testiluku)):
-            if testiluku[x] not in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:
+            if testiluku[0][x] not in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:
                 toimiiko=False
         self.assertTrue(toimiiko)
     def test_RSA_salaus_toimii_oikein(self):
@@ -18,10 +18,10 @@ class Testsalausosa3(unittest.TestCase):
         sana="voiveljet"
         avain=RSA_avainten_muodostus()
         vanhaluku=muuta_luvuksi(matriisi, sana)
-        uusiluku=RSA_salaus(vanhaluku, avain)
+        uusiluku=RSA_salaus(vanhaluku[0], avain)
         n=avain[0]
         e=avain[1]
         vastaus=False
-        if (int(uusiluku)-(int(vanhaluku)**e))%n==0:
+        if (int(uusiluku)-(int(vanhaluku[0])**e))%n==0:
             vastaus=True
         self.assertTrue(vastaus)
