@@ -6,6 +6,6 @@ Ohjelman kaikki ominasuudet on nyt toteutettu ja testattu. Ohjelma on täten val
 ### Mitä opin?
 En ole oppinut mitään uutta.
 ### Mitä teen seuraavaksi?
-Koska tämä on viimeinen viikkoraportti, 
+Koska tämä on viimeinen viikkoraportti, ei ole enää tehtävää.
 ### Käytetty aika
 Muutama tunti
