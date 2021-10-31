@@ -1,5 +1,6 @@
+# Testausdokumentti
 ### Testikattavauusraportti
-
+![Kattavuusraportti](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/kuvat/Kattavuusraportti.png)
 ### Millä testaus tehtiin?
 Ohjelman funktioiden yksikkötestaus suoritetaan pytestilla.
 ### Testien toisto
@@ -8,8 +9,11 @@ Tämän jälkeen yksikkötestit voidaan suorittaa projektin juurihakemistossa ko
 Testikattavuusraportti voidaan generoida suorittamalla juurihakemistossa ensin komento *poetry run coverage run --branch -m pytest koodi* ja sitten *poetry run coverage html*. Tämän jälkeen raportin saa näkyviin avaamalla tiedosto index.html projektin htmlcov-hakemistosta.
 ### Suorituskyky testit
 Testaamiseen käytetyt viestit(/-merkki ilmaisee rivinvaihtoa):
+
 viesti 1: moro
+
 viesti 2: moromaoonjonsku
+
 viesti 3: moro/ma/oon/jonsku
 
 viesti | salaus | salauksen purku
