@@ -1,5 +1,7 @@
 # Toteutusdokumentti
 ### Ohjelman yleisrakenne
+![Riippuvuuskaavio](https://github.com/Jatynjala/Tira-harjoitustyo-Johannes-Tynjala/blob/main/dokumentaatio/kuvat/Riippuvuuskaavio.png)
+
 Nuolet ilmaisevat, että jotkut nuolen osoittamassa tiedostossa määritellyistä funktioista käyttävät joitakin nuolen alkutiedostossa määriteltyjä funktioita.
 ### Aikavaativuudet
 Funktio | tiedosto | aikavaativuus
@@ -9,7 +11,7 @@ muuta_listaksi | salausosa1 | O(n)
 korvaa_merkit | salausosa1 | O(n²)
 SYT | salausosa2 | O(log(n))
 onko_alkuluku | salausosa2 | O(n)
-RSA_avainten_muodostus | salausosa2 | O(1)
+RSA_avainten_muodostus | salausosa2 | O(n)
 muuta_luvuksi | salausosa3 | O(n²)
 RSA_salaus | salausosa3 | O(n)
 RSA_purku | purkausosa | O(n)
